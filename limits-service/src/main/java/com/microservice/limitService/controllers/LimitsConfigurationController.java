@@ -9,12 +9,12 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class LimitsConfigurationController {
 
-//    @Autowired
-//    Configuration config;
+    @Autowired
+    Configuration config;
 
     @GetMapping("/limits")
     public LimitConfigs getLimitConfigs(){
-        return new LimitConfigs(1000, 1);
+        return new LimitConfigs(config.getMaximum(), config.getMinimum());
     };
 
 }
