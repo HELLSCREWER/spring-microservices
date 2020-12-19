@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
 
 @AllArgsConstructor
-@ConfigurationProperties(prefix="limits.service")
+@ConfigurationProperties(prefix="limits-service")
 public class Configuration {
 
     @Getter
