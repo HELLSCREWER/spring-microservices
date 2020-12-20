@@ -1,7 +1,7 @@
 package com.microservice.limitService.controllers;
 
-import com.microservice.limitService.domains.LimitConfigs;
-import com.microservice.limitService.domains.Configuration;
+import com.microservice.limitService.bean.LimitConfiguration;
+import com.microservice.limitService.bean.Configuration;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -13,8 +13,8 @@ public class LimitsConfigurationController {
     Configuration config;
 
     @GetMapping("/limits")
-    public LimitConfigs getLimitConfigs(){
-        return new LimitConfigs(config.getMaximum(), config.getMinimum());
+    public LimitConfiguration getLimitConfigs(){
+        return new LimitConfiguration(config.getMaximum(), config.getMinimum());
     };
 
 }
