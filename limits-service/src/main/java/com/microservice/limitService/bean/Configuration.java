@@ -34,11 +34,4 @@ public class Configuration {
         this.minimum = minimum;
     }
 
-//    public Configuration(int maximum, int minimum) {
-//        this.maximum = maximum;
-//        this.minimum = minimum;
-//    }
-//
-//    public Configuration() {
-//    }
 }
