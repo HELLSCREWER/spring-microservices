@@ -4,7 +4,6 @@ import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;
 
-@AllArgsConstructor
 public class LimitConfiguration {
 
     int maximum;
@@ -23,6 +22,11 @@ public class LimitConfiguration {
     }
 
     public void setMinimum(int minimum) {
+        this.minimum = minimum;
+    }
+
+    public LimitConfiguration(int maximum, int minimum) {
+        this.maximum = maximum;
         this.minimum = minimum;
     }
 }
