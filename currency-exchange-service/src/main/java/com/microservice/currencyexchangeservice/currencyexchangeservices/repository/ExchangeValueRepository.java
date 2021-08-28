@@ -1,14 +1,11 @@
-package com.microservice.currencyexchangeservice.repository;
+package com.microservice.currencyexchangeservice.currencyexchangeservices.repository;
 
-import com.microservice.currencyexchangeservice.domain.ExchangeValue;
+import com.microservice.currencyexchangeservice.currencyexchangeservices.domain.ExchangeValue;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.query.Criteria;
 import org.springframework.data.mongodb.core.query.Query;
 import org.springframework.stereotype.Repository;
-
-import java.math.BigDecimal;
-import java.util.List;
 
 @Repository
 public class ExchangeValueRepository {

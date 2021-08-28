@@ -11,6 +11,7 @@ public class SpringCloudConfigurationServer {
 
 	@Value("${limits-service.maximum}")
 	static String cloudVar;
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringCloudConfigurationServer.class, args);
 		System.out.println("*****************************************************"+cloudVar);

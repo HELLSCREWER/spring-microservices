@@ -7,7 +7,7 @@ import org.springframework.boot.context.properties.EnableConfigurationProperties
 import org.springframework.context.annotation.PropertySource;
 import org.springframework.stereotype.Component;
 
-//@EnableConfigurationProperties
+@EnableConfigurationProperties
 @ConfigurationProperties("limits-service")
 @PropertySource("bootstrap.properties")
 @Component
