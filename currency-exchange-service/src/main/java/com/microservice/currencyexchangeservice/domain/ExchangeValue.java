@@ -1,4 +1,4 @@
-package com.microservice.currencyexchangeservice.currencyexchangeservices.domain;
+package com.microservice.currencyexchangeservice.domain;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

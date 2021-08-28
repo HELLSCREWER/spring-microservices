@@ -1,4 +1,4 @@
-package com.microservice.currencyexchangeservice.currencyexchangeservices;
+package com.microservice.currencyexchangeservice;
 
 import com.mongodb.ConnectionString;
 import com.mongodb.MongoClientSettings;

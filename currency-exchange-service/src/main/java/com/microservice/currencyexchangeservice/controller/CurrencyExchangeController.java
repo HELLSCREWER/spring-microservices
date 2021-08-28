@@ -1,7 +1,7 @@
-package com.microservice.currencyexchangeservice.currencyexchangeservices.controller;
+package com.microservice.currencyexchangeservice.controller;
 
-import com.microservice.currencyexchangeservice.currencyexchangeservices.domain.ExchangeValue;
-import com.microservice.currencyexchangeservice.currencyexchangeservices.repository.ExchangeValueRepository;
+import com.microservice.currencyexchangeservice.domain.ExchangeValue;
+import com.microservice.currencyexchangeservice.repository.ExchangeValueRepository;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
